@@ -1,1 +1,0 @@
-Projetos e Treinamentos na Linguagem Python!!!
