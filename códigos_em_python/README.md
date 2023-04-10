@@ -1,1 +1,1 @@
-Projetos Pessoais e Treinamentos nas linguagens de Programação!!!
+Projetos e Treinamentos na Linguagem Python!!!
