@@ -4,4 +4,4 @@ from termcolor import colored
 
 msg = str(input('Digite uma mensagem: '))
 
-print(colored(figlet_format(msg), color='red'))
+print(colored(figlet_format(msg), color='white'))
