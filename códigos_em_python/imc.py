@@ -20,17 +20,17 @@ while True:
             imc = peso / (alt * alt)
             
             if imc < 16:
-                print("Seu IMC é de {:.2f}. Você está com baixo peso muito grave!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está com baixo peso muito grave!")
             elif imc < 18.5:
-                print("Seu IMC é de {:.2f}. Você está abaixo do peso!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está abaixo do peso!")
             elif imc >= 18.5 and imc < 25:
-                print("Seu IMC é de {:.2f}. Você está no peso ideal!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está no peso ideal!")
             elif imc >= 25 and imc < 30:
-                print("Seu IMC é de {:.2f}. Você está com sobrepeso!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está com sobrepeso!")
             elif imc >= 30 and imc < 40:
-                print("Seu IMC é de {:.2f}. Você está com obesidade!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está com obesidade!")
             elif imc >= 40:
-                print("Seu IMC é de {:.2f}. Você está com obesidade mórbida!".format(imc))
+                print(f"Seu IMC é de {imc:.2f}. Você está com obesidade mórbida!")
             elif alt and peso == 0:
                 print("Saindo...")
                 sleep(2)
