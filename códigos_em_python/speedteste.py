@@ -11,5 +11,5 @@ spt_upload = round(spt.upload() / 1000 / 1000, 1)
 
 print(f"Velocidade de Download {spt_download}")
 print(f"Velocidae de Upload {spt_upload}")
-print(f"Nível de Ping {spt_ping}")
+print(f"Nível de Ping {spt_ping:.2f}")
 
